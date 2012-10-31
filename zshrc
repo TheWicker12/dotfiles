@@ -37,7 +37,6 @@ source $ZSH/oh-my-zsh.sh
 eval `dircolors /home/chad/.dir_colors`
 
 # My Aliases
-#alias lec="ssh cnieren@lectura.cs.arizona.edu"
 
 alias ls="ls --color=auto"
 alias ll="ls -alF"

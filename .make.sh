@@ -10,7 +10,7 @@
 
 dir=~/dotfiles
 olddir=~/dotfiles_old
-files="bashrc vimrc zshrc oh-my-zsh"
+files="bashrc dir_colors vimrc zshrc oh-my-zsh"
 
 ########
 
