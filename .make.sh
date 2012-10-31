@@ -15,7 +15,7 @@ files="bashrc vimrc zshrc oh-my-zsh"
 ########
 
 # Create dotfiles_old in homedir
-echo "Creating $olddir for backup of any existing dotfiles in -"
+echo "Creating $olddir for backup of any existing dotfiles in ~"
 mkdir -p $olddir
 echo "...done"
 
@@ -28,7 +28,7 @@ echo "...done"
 # then create symlinks
 for file in $files
 do
-	echo "Moving any existing dotfiles from - to $olddir"
+	echo "Moving any existing dotfiles from ~ to $olddir"
 	mv ~/.$file ~/dotfiles_old/
 	echo "Creating symlink to $file in home directory."
 	ln -s $dir/$file ~/.$file
